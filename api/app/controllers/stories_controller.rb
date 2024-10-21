@@ -18,7 +18,7 @@ class StoriesController < ApplicationController
   end
 
   def new_stories
-    stories = StoriesService.new.get_stories('new', params[:filter_term])
+    stories = StoriesService.new.get_stories('new', params.permit(:filter_term)[:filter_term])
 
     render json: stories.first(10)
   end

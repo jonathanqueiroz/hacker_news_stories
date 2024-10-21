@@ -16,7 +16,6 @@ Este projeto permite que você navegue pelas notícias mais populares da Hacker 
 * Cache
 * Paralelismo
 * WebSockets
-* **[Adicione outras funcionalidades aqui]**
 
 ## Instalação
 1. **Clone o repositório:**

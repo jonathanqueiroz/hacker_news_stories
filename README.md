@@ -1,19 +1,29 @@
-# Hacker News Stories
+# Hacker News Stories: Explore as últimas notícias da Hacker News
 
-## Descrição
-Este projeto é uma aplicação web que utiliza Vue.js no frontend e Rails no backend. Ele permite a visualização de notícias e comentários vindas da HackerNews API. O projeto utiliza cache e paralelismo para melhor desempenho.
+**Uma aplicação Vue.js e Rails para explorar as últimas notícias da Hacker News**
 
-## Requisitos
-- Docker
-- Docker Compose
+Este projeto permite que você navegue pelas notícias mais populares da Hacker News de forma rápida e eficiente. Você pode explorar os detalhes de cada notícia, ler os comentários e filtrar as notícias por um termo específico. Além disso existe uma conexão de WebSocket para trazer as notícias mais recentes.
+
+## Tecnologias
+* **Frontend:** Vue.js
+* **Backend:** Rails e Redis
+* **API:** Hacker News API
+* **Deployment:** Docker e Docker Compose
+
+## Funcionalidades
+* Visualização de notícias e comentários
+* Busca por termos específicos
+* Cache
+* Paralelismo
+* WebSockets
+* **[Adicione outras funcionalidades aqui]**
 
 ## Instalação
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/jonathanqueiroz/hacker_news_stories
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/jonathanqueiroz/hacker_news_stories](https://github.com/jonathanqueiroz/hacker_news_stories)
    cd hacker_news_stories
-   ```
-2. Certifique-se que possui o Docker e o Docker Compose instalados e após isso rode o projeto
-  ```sh
-  docker-compose up --build
-  ```
+
+2. **Rode o projeto Docker:**
+   ```bash
+   docker-compose up --build

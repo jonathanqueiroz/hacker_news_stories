@@ -21,7 +21,7 @@ Este projeto permite que você navegue pelas notícias mais populares da Hacker 
 ## Instalação
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/jonathanqueiroz/hacker_news_stories](https://github.com/jonathanqueiroz/hacker_news_stories)
+   git clone https://github.com/jonathanqueiroz/hacker_news_stories
    cd hacker_news_stories
 
 2. **Rode o projeto Docker:**
